@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import com.data.dao.service.mongo.controller.MainControllerTest;
 import com.data.dao.service.mongo.serviceImpl.UserServiceImplTest;
 
-@SpringBootTest(classes = {RestTemplate.class})
+@SpringBootTest
 @RunWith(Suite.class)
 @ActiveProfiles("test")
 @SuiteClasses({MainControllerTest.class,UserServiceImplTest.class})
